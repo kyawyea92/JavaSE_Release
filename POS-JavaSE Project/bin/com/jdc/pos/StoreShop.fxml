@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox prefHeight="720.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jdc.pos.StoreShop">
+	<children>
+		<VBox fx:id="nav" minWidth="80.0" prefWidth="240.0" style="-fx-background-color: grey;">
+			<children>
+				<Label alignment="CENTER" prefHeight="69.0" prefWidth="247.0" text="My Store" textFill="#f5f4f4">
+					<font>
+						<Font name="Snap ITC" size="22.0" />
+					</font>
+				</Label>
+				<VBox alignment="CENTER" prefHeight="652.0" prefWidth="240.0">
+					<children>
+						<Button cache="true" mnemonicParsing="false" opacity="0.69" prefHeight="41.0" prefWidth="204.0" style="-fx-background-color: cyan;" text="Categories" textFill="#9e3232">
+							<VBox.margin>
+								<Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Snap ITC" size="20.0" />
+							</font>
+							<graphic>
+
+
+								<ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../../../images/categories.jpg" />
+									</image>
+								</ImageView>
+							</graphic>
+						</Button>
+						<Button alignment="BASELINE_LEFT" cache="true" mnemonicParsing="false" opacity="0.69" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: cyan;" text="Product" textFill="#9e3232">
+							<VBox.margin>
+								<Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Snap ITC" size="20.0" />
+							</font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/shipping.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+						</Button>
+						<Button alignment="BASELINE_LEFT" cache="true" mnemonicParsing="false" opacity="0.69" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: cyan;" text="Order" textFill="#9e3232">
+							<VBox.margin>
+								<Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Snap ITC" size="20.0" />
+							</font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/structure.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+						</Button>
+						<Button alignment="BASELINE_LEFT" cache="true" mnemonicParsing="false" opacity="0.69" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: cyan;" text="Customers" textFill="#9e3232">
+							<VBox.margin>
+								<Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Snap ITC" size="20.0" />
+							</font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/specialist-user.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+						</Button>
+						<Button alignment="BASELINE_LEFT" cache="true" mnemonicParsing="false" opacity="0.69" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: cyan;" text="Discount" textFill="#9e3232">
+							<VBox.margin>
+								<Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Snap ITC" size="20.0" />
+							</font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/discount.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+						</Button>
+						<Button alignment="BASELINE_LEFT" cache="true" mnemonicParsing="false" opacity="0.69" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: cyan;" text="Sale" textFill="#9e3232">
+							<VBox.margin>
+								<Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Snap ITC" size="20.0" />
+							</font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/shopping.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+						</Button>
+						<Button cache="true" mnemonicParsing="false" opacity="0.69" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: cyan;" text="Purchase" textFill="#9e3232">
+							<VBox.margin>
+								<Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+							</VBox.margin>
+							<font>
+								<Font name="Snap ITC" size="20.0" />
+							</font>
+						</Button>
+					</children>
+				</VBox>
+			</children>
+		</VBox>
+		<HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+	</children>
+</HBox>
